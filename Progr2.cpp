@@ -17,6 +17,9 @@ int main() {
     case '+':
         res = a + b;
         break;
+    case '-':
+        res = a - b;
+        break;
     default:
         std::cout << "Wrong operation" << std::endl;
         return 1;
