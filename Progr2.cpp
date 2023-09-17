@@ -15,8 +15,15 @@ int main() {
 
     switch (operation) {
     case '+':
-        result = operand1 + operand2;
+        res = a + b;
         break;
+    default:
+        std::cout << "Wrong operation" << std::endl;
+        return 1;
     }
+
+    std::cout << "Result: " << a << " " << op << " " << b << " = " << res << std::endl;
+
+    return 0;
 
 }
