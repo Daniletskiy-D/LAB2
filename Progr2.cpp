@@ -28,6 +28,8 @@ int main() {
             std::cout << "Error: /0" << std::endl;
             return 1;
         }
+        res = a / b;
+        break;
     default:
         std::cout << "Wrong operation" << std::endl;
         return 1;
