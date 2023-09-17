@@ -23,6 +23,11 @@ int main() {
     case '*':
         res = a * b;
         break;
+    case '/':
+        if (b == 0) {
+            std::cout << "Error: /0" << std::endl;
+            return 1;
+        }
     default:
         std::cout << "Wrong operation" << std::endl;
         return 1;
